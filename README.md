@@ -4,49 +4,7 @@ Java OOP practice projects built from scratch.
 
 ---
 
-## Day 1 — Shape Hierarchy
-
-A shape calculator using **interfaces**, **inheritance**, and **polymorphism**.
-
-### Project Structure
-```
-shapes/src/
-├── Main.java
-├── interfaces/
-│   └── Shape.java
-└── shapes/
-    ├── Circle.java
-    ├── Rectangle.java
-    └── Triangle.java
-```
-
-### How It Works
-- `Shape` is an interface with two methods: `calculateArea()` and `calculatePerimeter()`
-- `Circle`, `Rectangle`, and `Triangle` each implement the interface
-- `Main.java` asks the user which shape they want, takes the dimensions as input, and prints the area and perimeter
-
-### How to Run
-```bash
-cd shapes/src
-javac interfaces/Shape.java shapes/*.java Main.java
-java Main
-```
-
-### Sample Output
-```
-Which shape do you want?
-1. Circle
-2. Rectangle
-3. Triangle
-Enter choice (1/2/3): 1
-Enter radius: 5
-Area      : 78.54
-Perimeter : 31.42
-```
-
----
-
-## Day 2 — Phonebook App
+## Phonebook App
 
 A contact manager using three different **Java Collections**.
 
@@ -95,3 +53,46 @@ Bob Smith | 9999
 John Smith | 1234
 ----------------------------------------
 ```
+---
+
+## Shape Hierarchy
+
+A shape calculator using **interfaces**, **inheritance**, and **polymorphism**.
+
+### Project Structure
+```
+shapes/src/
+├── Main.java
+├── interfaces/
+│   └── Shape.java
+└── shapes/
+    ├── Circle.java
+    ├── Rectangle.java
+    └── Triangle.java
+```
+
+### How It Works
+- `Shape` is an interface with two methods: `calculateArea()` and `calculatePerimeter()`
+- `Circle`, `Rectangle`, and `Triangle` each implement the interface
+- `Main.java` asks the user which shape they want, takes the dimensions as input, and prints the area and perimeter
+
+### How to Run
+```bash
+cd shapes/src
+javac interfaces/Shape.java shapes/*.java Main.java
+java Main
+```
+
+### Sample Output
+```
+Which shape do you want?
+1. Circle
+2. Rectangle
+3. Triangle
+Enter choice (1/2/3): 1
+Enter radius: 5
+Area      : 78.54
+Perimeter : 31.42
+```
+
+
